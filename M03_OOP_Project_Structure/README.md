@@ -32,7 +32,3 @@ Open a terminal in the folder shown, with `module03` active, then run the file n
 | `python_files/part4_5_catalogue_project/` | see its own `README.md` |
 
 Notebooks are kept separate from the Python files on purpose: the Part 3 notebook builds its own package in a scratch folder, and a `demo_pkg` sitting next to it would change what the import demos show. Each notebook cleans up its scratch folder when it finishes.
-
-## Instructor only
-
-`instructor_only/` holds the tested solutions to the Try it exercises. Remove it before sharing the folder with students.
