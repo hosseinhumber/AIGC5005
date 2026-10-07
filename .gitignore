@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------
+# AIGC 5005 course repository
+# ---------------------------------------------------------------
+
+# Instructor-only material (never publish solutions)
+INSTRUCTOR_ONLY*
+instructor_only/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments (conda environments live outside the repo; these cover venvs and local copies)
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Scratch folders created and deleted by the Module notebooks
+# (if a notebook stops before its clean-up cell, these stay behind)
+scratch_*/
+
+# Secrets and per-machine settings
+.env
+.env.*
+!.env.example
+config/settings.py
+*.key
+*.pem
+
+# Generated data (inputs in data/raw/ are kept; outputs are regenerable)
+data/processed/
+
+# Editors (shared recommendations such as .vscode/extensions.json are kept)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -14,7 +14,7 @@ Always install into the `catalogue` environment, never into `base`. To leave it:
 
 ## Run
 
-    python main.py
+    python -m catalogue.main
 
 Expected output:
 
@@ -26,7 +26,7 @@ Expected output:
 
 ## Layout
 
-    src/catalogue/    the package (models.py, helpers.py, __init__.py)
+    src/catalogue/    the package (models.py, helpers.py, main.py, __init__.py)
     tests/            automated tests
     data/raw/         inputs, never edited by code
     data/processed/   generated outputs, safe to delete
@@ -35,4 +35,4 @@ Expected output:
     requirements.txt  pinned pip packages
     pyproject.toml    tells Python's packaging tools where the package lives
 
-Note: `requests` is pinned only to demonstrate a pinned dependency; the catalogue code does not use it yet.
+Notes: `requests` is pinned only to demonstrate a pinned dependency; the catalogue code does not use it yet. `ipykernel` is listed so VS Code and Jupyter can run notebooks in this environment; the code never imports it.
