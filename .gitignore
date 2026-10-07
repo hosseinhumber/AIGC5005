@@ -53,3 +53,6 @@ data/processed/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# In-class Activity files (these are not part of the assignment submission)
+class_activity/
