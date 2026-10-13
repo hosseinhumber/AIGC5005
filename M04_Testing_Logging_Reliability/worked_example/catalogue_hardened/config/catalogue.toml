@@ -1,0 +1,6 @@
+# Settings for the catalogue program. Paths are relative to the project root.
+data_file = "data/catalogue.json"
+output_dir = "data/processed"
+seed = 42
+sample_size = 3
+log_level = "INFO"

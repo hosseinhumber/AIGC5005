@@ -1,0 +1,12 @@
+[
+  {"title": "fluent python", "author": "Luciano Ramalho", "copies": 2},
+  {"title": "clean code", "author": "Robert Martin", "copies": 1},
+  {"title": "the pragmatic programmer", "author": "Andrew Hunt", "copies": 3},
+  {"title": "python crash course", "author": "Eric Matthes", "copies": 0},
+  {"title": "automate the boring stuff", "author": "Al Sweigart", "copies": 2},
+  {"title": "effective python", "author": "Brett Slatkin", "copies": 1},
+  {"title": "architecture patterns with python", "author": "Harry Percival", "copies": 1},
+  {"title": "test driven development", "author": "Kent Beck", "copies": 2},
+  {"title": "refactoring", "author": "Martin Fowler", "copies": 1},
+  {"title": "designing data-intensive applications", "author": "Martin Kleppmann", "copies": 2}
+]

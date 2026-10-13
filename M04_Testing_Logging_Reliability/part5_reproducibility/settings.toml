@@ -1,0 +1,7 @@
+# Values that change between runs belong here, not in the code.
+seed = 42
+sample_size = 3
+input_file = "data/records.csv"
+
+[logging]
+level = "INFO"
