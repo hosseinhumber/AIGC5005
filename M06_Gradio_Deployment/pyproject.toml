@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 88
+src = ["part1_why_deployment", "part2_inference_function", "part3_interface", "part4_blocks", "part5_bad_input", "part6_spaces", "worked_example"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
