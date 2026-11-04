@@ -4,6 +4,17 @@ import gradio as gr
 
 from predict import CONTRACTS, PAYMENTS, predict_churn
 
+try:  # present only on Hugging Face ZeroGPU hardware
+    import spaces
+except ImportError:
+    spaces = None
+
+if spaces is not None:
+
+    @spaces.GPU
+    def keep_zerogpu_happy() -> None:
+        """ZeroGPU will not start without one GPU function. This one does nothing."""
+
 
 def score(tenure, charge, calls, contract, payment, cutoff):
     if charge is None:
