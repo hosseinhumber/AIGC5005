@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.pt
+*.keras
+*.h5
+*.joblib
+history*.csv
+learning_curves*.png
+*_metrics.json
