@@ -1,0 +1,13 @@
+n,seed,method,accuracy,macro_f1
+50,1,tfidf,0.5572,0.5571
+50,1,frozen features,0.667,0.666
+50,1,head only,0.6041,0.5408
+50,1,full fine-tune,0.6182,0.5741
+100,1,tfidf,0.5722,0.571
+100,1,frozen features,0.7148,0.7139
+100,1,head only,0.7242,0.7226
+100,1,full fine-tune,0.7392,0.7386
+200,1,tfidf,0.6144,0.6144
+200,1,frozen features,0.7336,0.7326
+200,1,head only,0.7392,0.7389
+200,1,full fine-tune,0.8086,0.8085
